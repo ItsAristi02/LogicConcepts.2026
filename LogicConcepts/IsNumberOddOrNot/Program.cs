@@ -3,7 +3,7 @@
     Console.Write("Ingrese un número o escriba 'salir' : ");
     string texto = Console.ReadLine();
 
-    if (texto == "salir")
+    if (texto!.ToLower() == "salir")
     {
         Console.WriteLine("Saliendo del programa...");
         break;
